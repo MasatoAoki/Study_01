@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>aokimasato </Text>
+      <Text>aokimasato </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -20,4 +21,6 @@ const styles = StyleSheet.create({
   },
 });
 
-//develop
+
+//変更m_
+
