@@ -21,4 +21,6 @@ const styles = StyleSheet.create({
   },
 });
 
+
 //変更m_
+
