@@ -5,15 +5,17 @@ import TitleItem from './components/TitleItem';
 import TubItem from './components/TubItem';
 import ConfirmationItem from './components/ConfirmationItem';
 import SentakuItem from './components/SentakuItem';
+import user from './components/user.json'
+
+
 
 export default function App() {
+
   return (
 
     <SafeAreaView style={styles.container}>
       <TitleItem title="送信内容を確認後「送信」をタップしてください" />
-      <ConfirmationItem />
-
-
+      <ConfirmationItem/>
       <SentakuItem />
       <TubItem />
     </SafeAreaView >
@@ -24,11 +26,13 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'blue',
     alignItems: "center",
     justifyContent: "flex-end",
-
+    
+  
   },
+
 });
 
 //M_2021092221
