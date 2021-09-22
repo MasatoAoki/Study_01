@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
 
     returnButtonContainer: {
         width: "40%",
-        height: "70%",
+        height: "80%",
         flexDirection: "row",
         borderWidth: 1,
         alignItems: "center",
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 
     sendButtonContainer: {
         width: "40%",
-        height: "70%",
+        height: "80%",
         flexDirection: "row",
         borderWidth: 1,
         alignItems: "center",
