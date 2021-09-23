@@ -11,30 +11,32 @@ const ConfirmationItem = () => {
             <Text style={styles.confirmationtxtContainer} >[緊急事態者]</Text>
             <View style={styles.confirmationAnsContainer1}>
             {Confirmation.map((Confirmations)=>(
-                <Text style={styles.confirmationAnstxtContainer1}>{Confirmations.username}</Text>
+                <Text style={styles.confirmationAnstxtContainer1}>{Confirmations.user01.username}</Text>
             ))}
             </View>
- 
+
             <Text style={styles.confirmationtxtContainer} >[緊急事態者との関係性]</Text>
             <View style={styles.confirmationAnsContainer1}>
             {Confirmation.map((Confirmations)=>(
-                <Text style={styles.confirmationAnstxtContainer1}>{Confirmations.relationship}</Text>
+                <Text style={styles.confirmationAnstxtContainer1}>{Confirmations.user01.relationship}</Text>
             ))}
             </View>
 
             <Text style={styles.confirmationtxtContainer} >[送信メッセージ内容]</Text>
             <View style={styles.confirmationAnsContainer2}>
             {Confirmation.map((Confirmations)=>(
-                <Text style={styles.confirmationAnstxtContainer2}>{Confirmations.message}</Text>
-            ))}
+                <Text style={styles.confirmationAnstxtContainer2}>{Confirmations.user01.message}</Text>
+            ))} 
             </View>
 
             <Text style={styles.confirmationtxtContainer} >[メッセージ送信先]</Text>
             <View style={styles.confirmationAnsContainer2}>
             {Confirmation.map((Confirmations)=>(
-                <Text style={styles.confirmationAnstxtContainer2}>{Confirmations.send}</Text>
-            ))}
+                <Text style={styles.confirmationAnstxtContainer2}>{Confirmations.user01.send}</Text>
+            ))}    
             </View>
+ 
+
 
         </View>
 
@@ -56,8 +58,8 @@ const styles = StyleSheet.create({
     },
 
     confirmationAnsContainer1:{
-        width: "70%",
-        height: "8%",
+        width: "65%",
+        height: "7%",
         backgroundColor: "#fff",
         borderWidth: 1,
         alignItems: "center",
@@ -67,8 +69,8 @@ const styles = StyleSheet.create({
     },
 
     confirmationAnsContainer2:{
-        width: "90%",
-        height: "25%",
+        width: "95%",
+        height: "29%",
         backgroundColor: "#fff",
         borderWidth: 1,
         alignItems: "flex-start",
