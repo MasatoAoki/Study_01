@@ -1,9 +1,39 @@
 [
     {
-        "username": "青木将人",
-        "relationship": "母",
-        "message": "特定の思想の流派の枠内で社会現象を学び、そして解釈するときに使われる理論的枠組みである。",
-        "send": "山見,芥川"
+      "username": "青木"
+    },
+    {
+      "username": "芥川"
+    },
+    {
+      "username": "山見"
+    },
+    {
+      "username": "森"
+    },
+    {
+      "username": "user5"
+    },
+    {
+      "username": "user6"
+    },
+    {
+      "username": "user7"
+    },
+    {
+      "username": "user8"
+    },
+    {
+      "username": "user9"
+    },
+    {
+      "username": "user10"
+    },
+    {
+      "username": "user11"
+    },
+    {
+      "username": "user12"
     }
-    
-]
+  ]
+  

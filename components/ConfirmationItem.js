@@ -1,38 +1,38 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert, } from 'react-native';
-import user from './user.json' //dummy
+import Confirmation from './Confirmation.json' //dummy
 
 
 const ConfirmationItem = () => {
 
     return (
         <View style={styles.confirmationContainer}>
-            <Text style={styles.confirmationtxtContainer} >緊急事態者</Text>
+            <Text style={styles.confirmationtxtContainer} >[緊急事態者]</Text>
             <View style={styles.confirmationAnsContainer1}>
-            {user.map((users)=>(
-                <Text style={styles.confirmationAnstxtContainer1}>{users.username}</Text>
+            {Confirmation.map((Confirmations)=>(
+                <Text style={styles.confirmationAnstxtContainer1}>{Confirmations.username}</Text>
             ))}
             </View>
  
-            <Text style={styles.confirmationtxtContainer} >緊急事態者との関係性</Text>
+            <Text style={styles.confirmationtxtContainer} >[緊急事態者との関係性]</Text>
             <View style={styles.confirmationAnsContainer1}>
-            {user.map((users)=>(
-                <Text style={styles.confirmationAnstxtContainer1}>{users.relationship}</Text>
+            {Confirmation.map((Confirmations)=>(
+                <Text style={styles.confirmationAnstxtContainer1}>{Confirmations.relationship}</Text>
             ))}
             </View>
 
-            <Text style={styles.confirmationtxtContainer} >送信メッセージ内容</Text>
+            <Text style={styles.confirmationtxtContainer} >[送信メッセージ内容]</Text>
             <View style={styles.confirmationAnsContainer2}>
-            {user.map((users)=>(
-                <Text style={styles.confirmationAnstxtContainer2}>{users.message}</Text>
+            {Confirmation.map((Confirmations)=>(
+                <Text style={styles.confirmationAnstxtContainer2}>{Confirmations.message}</Text>
             ))}
             </View>
 
-            <Text style={styles.confirmationtxtContainer} >メッセージ送信先</Text>
+            <Text style={styles.confirmationtxtContainer} >[メッセージ送信先]</Text>
             <View style={styles.confirmationAnsContainer2}>
-            {user.map((users)=>(
-                <Text style={styles.confirmationAnstxtContainer2}>{users.send}</Text>
+            {Confirmation.map((Confirmations)=>(
+                <Text style={styles.confirmationAnstxtContainer2}>{Confirmations.send}</Text>
             ))}
             </View>
 
@@ -56,12 +56,12 @@ const styles = StyleSheet.create({
     },
 
     confirmationAnsContainer1:{
-        width: "90%",
-        height: "10%",
+        width: "70%",
+        height: "8%",
         backgroundColor: "#fff",
         borderWidth: 1,
-        alignItems: "flex-start",
-        justifyContent: "flex-start",
+        alignItems: "center",
+        justifyContent: "center",
         marginBottom:"3%",  
  
     },
