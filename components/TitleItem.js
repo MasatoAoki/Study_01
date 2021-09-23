@@ -6,7 +6,7 @@ import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert } from 'r
 const TitleItem = (props) => {
     return (
         <View style={styles.TitleContainer}>
-            <Text style={styles.Title}> {props.title}</Text>
+            <Text style={styles.Titletxt}> {props.title}</Text>
         </View>
 
     )
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
 
-    Title: {
+    Titletxt: {
         fontSize: 20,
         fontWeight: "700"
 
