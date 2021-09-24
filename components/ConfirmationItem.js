@@ -86,11 +86,11 @@ const styles = StyleSheet.create({
     },
     confirmationAnstxtContainer1:{
         fontSize:25,
-        fontWeight:"500"
+        fontWeight:"400"
     },
     confirmationAnstxtContainer2:{
         fontSize:18,
-        fontWeight:"500"
+        fontWeight:"400"
     },
 
     
