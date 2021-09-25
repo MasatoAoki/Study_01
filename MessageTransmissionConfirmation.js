@@ -37,4 +37,4 @@ const styles = StyleSheet.create({
 
 export default MessageTransmissionConfirmation
 
-//M_20210923
+//M_20210925
