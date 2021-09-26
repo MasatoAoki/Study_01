@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert } from 'react-native';
-import TitleItem from './components/TitleItem';
-import TubItem from './components/TubItem';
-import ConfirmationItem from './components/ConfirmationItem';
-import SelectionItem from './components/SelectionItem';
+import TitleItem from '../components/TitleItem';
+import TubItem from '../components/TubItem';
+import ConfirmationItem from '../components/ConfirmationItem';
+import SelectionItem from '../components/SelectionItem';
 
 const MessageTransmissionConfirmation =() => {
 

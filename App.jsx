@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, SafeAreaView, Button, Alert } from 'react-native';
-import MessageTransmissionConfirmation from './MessageTransmissionConfirmation';
+import MessageTransmissionConfirmation from './screens/MessageTransmissionConfirmation';
 
 
 
